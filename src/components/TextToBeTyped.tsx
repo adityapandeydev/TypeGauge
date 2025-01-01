@@ -22,5 +22,6 @@ const addMark = (i: number, mark: Mark): string => {
     const textColor = i < mark.correctlyTyped ? "text-green-500" : "";
     const bgColor = i >= mark.correctlyTyped && i < mark.totalCharTyped ? "bg-red-300" : "";
 
-    return `${textColor} ${bgColor}`;
+    const cursor = i === mark.correctlyTyped ? "animate-cursor" : "border-transparent"; 
+    return `border-l ${textColor} ${bgColor} ${cursor}`;
 };

@@ -14,6 +14,17 @@ export default {
         result: "#005995",
         race: "#3b5998",
       },
+
+      keyframes: {
+        cursor: {
+          "0%, 100%": {"border-color": "rgba(0, 0, 0, 1)"},
+          "50%": {"border-color": "rgba(0, 0, 0, 0)"},
+        }
+      },
+
+      animation: {
+        cursor: "cursor 1s infinite linear",
+      },
     },
   },
   plugins: [],

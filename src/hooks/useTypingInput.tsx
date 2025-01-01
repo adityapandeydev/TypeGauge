@@ -18,6 +18,7 @@ const useTypingInput = ({text} : {text: string}) => {
     const [index, setIndex] = useState(0);
     const [typed, setTyped] = useState("");
     const [error, setError] = useState<TypingError>({state: false});
+    const [alreadyTypedWords, setAlreadyTypedWords] = useState(0);
 
     const updateCorrectMark = useTypingStore((state) => state.updateCorrectMark);
     const updateIncorrectMark = useTypingStore((state) => state.updateIncorrectMark);
@@ -32,7 +33,7 @@ const useTypingInput = ({text} : {text: string}) => {
         const currentWord = words[index];
         const typedLength = typed.length;
 
-        const totalCharTyped = words.slice(0, index).join("").length + index + typedLength;
+        const totalCharTyped = alreadyTypedWords + typedLength;
 
         if (typed === " ") {
             setTyped("");
@@ -59,6 +60,7 @@ const useTypingInput = ({text} : {text: string}) => {
         }
 
         if(typed[currentWord.length] === " ") {
+            setAlreadyTypedWords(prev => prev + typedLength);
             setTyped("");
             setIndex(prev => prev + 1);
             return;
@@ -76,7 +78,7 @@ const useTypingInput = ({text} : {text: string}) => {
 
         updateCorrectMark(totalCharTyped);
     }, [typed]);
-    return { typed, setTyped, raceComplete };
+    return { typed, setTyped, raceComplete, error: error.state };
 }
 
 export default useTypingInput;

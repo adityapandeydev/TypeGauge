@@ -1,7 +1,7 @@
 const RaceTrack = () => {
     return (
         <div>
-            Race Track
+            
         </div>
     );
 }
