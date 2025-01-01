@@ -1,1 +1,1 @@
-[Link to the project](https://type-gauge-ng22.vercel.app/)
+[Link to the project](https://type-gauge.vercel.app/)
