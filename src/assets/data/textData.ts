@@ -1,0 +1,22 @@
+export default [
+    "The only limit to our realization of tomorrow is our doubts of today. Tomorrow holds infinite potential, but doubt can hinder our dreams. Believe in the possibilities and take action to move forward.",
+    "Success is not final, failure is not fatal. What truly matters is the courage to keep going despite the odds. Every setback is a setup for a comeback if you persevere.",
+    "Do not dwell in the past, for it is gone, and do not dream of the future, for it is yet to come. Focus on the present, as it is where life truly happens. The moment now is a gift to cherish.",
+    "The future belongs to those who believe in the beauty of their dreams. Dreams ignite the fire of ambition and passion. Hold onto them tightly, for they guide us to greatness.",
+    "In the middle of difficulty lies opportunity. Challenges may seem overwhelming, but they hold the seeds of growth. Embrace hardship as a chance to rise above and learn.",
+    "Do not go where the path may lead; go instead where there is no path and leave a trail. Blaze your own journey with courage and vision. The road less traveled often leads to extraordinary places.",
+    "It does not matter how slowly you go as long as you do not stop. Progress is progress, no matter the pace. Steady determination will always outlast fleeting effort.",
+    "Our lives begin to end the day we become silent about things that matter. When we speak up for justice, kindness, and truth, we breathe life into the world. Let your voice be a beacon.",
+    "Life is what happens when you're busy making other plans. While planning is important, remember to savor the small moments. True joy is often found in the unexpected.",
+    "To be yourself in a world constantly trying to make something else is the greatest accomplishment. Stay true to who you are, for authenticity is your greatest strength.",
+    "Happiness is not something ready-made. It comes from your own actions. The choices we make every day shape our joy and fulfillment. Take responsibility for your own contentment.",
+    "Do what you can with what you have, where you are. You don't need perfection or ideal circumstances to start. Use your present tools to start future success.",
+    "The way to get started is to quit talking and start doing. Action is the key to turning ideas into reality. Let your deed echo louder than your words.",
+    "Keep your face always toward the sunshine, and shadows will fall behind you. Focus on the positive, and you will attract growth and light. Life's challenges become stepping stone.",
+    "What lies behind us and what lies before us are tiny matters to what lies within us. The inner strength we hold determines our journey. Embrace your power.",
+    "The purpose of life is not be happy but to be useful, honorable, and compassionate. By serving others and living with integrity, we find deeper meaning in life.",
+    "Life is really simple, but we insist on making it complicated. Strip away the unnecessary and focus on the essence. Simplicity often brings the most profound clarity.",
+    "It always seems impossible until it's done. Every great achievement begins with the belief that it can be done. Break barriers with perseverance and faith in success.",
+    "Strive not to be a success, but rather to be of value. Contribute meaningfully to the world around you. Success naturally follows when we prioritize value and purpose.",
+    "You miss 100% of the shots you don't take. Every opportunity ignored is a political regret. Take chances and step out of your comfort zone to discover greatness."
+];
