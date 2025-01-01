@@ -13,8 +13,8 @@ const TextToBeType = ({text}: { text: string }) => {
                 )}
             )}
         </p>
-    )
-}
+    );
+};
 
 export default TextToBeType;
 

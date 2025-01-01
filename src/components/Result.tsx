@@ -8,6 +8,6 @@ const Result = () => {
             </button>
         </div>
     )
-}
+};
 
 export default Result;

@@ -23,6 +23,6 @@ const TextInput = ({ text }: { text: string }) => {
             className={`${error ? "bg-red-300" : "bg-white"} w-full border border-gray-200 rounded-sm p-[2px] text-lg focus:outline-none focus:border-black`} type="text" 
         />
     );
-}
+};
 
 export default TextInput;

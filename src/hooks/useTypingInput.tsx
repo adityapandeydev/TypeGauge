@@ -79,6 +79,6 @@ const useTypingInput = ({text} : {text: string}) => {
         updateCorrectMark(totalCharTyped);
     }, [typed]);
     return { typed, setTyped, raceComplete, error: error.state };
-}
+};
 
 export default useTypingInput;
