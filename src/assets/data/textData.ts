@@ -14,7 +14,7 @@ export default [
     "The way to get started is to quit talking and start doing. Action is the key to turning ideas into reality. Let your deed echo louder than your words.",
     "Keep your face always toward the sunshine, and shadows will fall behind you. Focus on the positive, and you will attract growth and light. Life's challenges become stepping stone.",
     "What lies behind us and what lies before us are tiny matters to what lies within us. The inner strength we hold determines our journey. Embrace your power.",
-    "The purpose of life is not be happy but to be useful, honorable, and compassionate. By serving others and living with integrity, we find deeper meaning in life.",
+    "The purpose of life is not to be happy but to be useful, honorable, and compassionate. By serving others and living with integrity, we find deeper meaning in life.",
     "Life is really simple, but we insist on making it complicated. Strip away the unnecessary and focus on the essence. Simplicity often brings the most profound clarity.",
     "It always seems impossible until it's done. Every great achievement begins with the belief that it can be done. Break barriers with perseverance and faith in success.",
     "Strive not to be a success, but rather to be of value. Contribute meaningfully to the world around you. Success naturally follows when we prioritize value and purpose.",
