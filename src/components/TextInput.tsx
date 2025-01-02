@@ -2,7 +2,7 @@ import useTypingInput from "../hooks/useTypingInput";
 import { useTypingStore } from "../stores/useTypingStore";
 
 const TextInput = ({ text }: { text: string }) => {
-    const {typed, setTyped, raceComplete, error} = useTypingInput({ text });
+    const {typed, setTyped, raceComplete, error} = useTypingInput({ words: text.split(" ") });
     const raceStartAt = useTypingStore((state) => state.raceStartAt);
 
     const startRace = (e: React.ChangeEvent<HTMLInputElement>) => {
